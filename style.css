@@ -1,44 +1,120 @@
 body {
-	background-color: #ffffff;
-	width: 960px;
-	padding-left: 150px;
+	background-image: url("assets/images/confectionary.png");
 
 }
 
 li{
-	display: inline;
-	float: right;
-	width: 100px;
+	display: inline;	
+
+}
+
+a {
 	color: #b3a79f;
 }
 
-.main-content {
-	background-image: url("../../confectionary.png");
+.head-container{
+	border: solid #cccccc 1px;
+	background-color: #ffffff;
+	height: 91px;
 }
 
-.bio{
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #b3a79f;
-	float:right;
-	margin: 10px;
-
-
-}
-
-
-.h1 {
+.portfolio_name {
 	float: left;
+	padding: 8px 30px 8px 30px;
+	width: 200px;
+	margin-left: 175px;
+	text-align: center;
 	background-color: #4aaaa5;
-	color: #ffffff;
-	font-family: 'Georgia', Times, Times New Roman, serif;	
+	color: #ffffff;	
 }
 
-.h2 {
-	color: #4aaaa5;
-	padding-top: 100px;
+#name-text {
+	display: block;
+	margin-top: 0.67em;
+    margin-bottom: 0.67em;
+	font-size: 30px;
+	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.menu {
+	box-sizing: border-box;
+	height:50px;
+	width: 710px;
+	padding-left: 320px;
+	padding-top: 22px; 
+	display: inline;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #b3a79f;
+}
+
+.menu-items {
+	display: flex;
+    justify-content: space-around;
+	
+
+}
+
+.page-title{
+	margin-right: 450px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	width: 200px;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+.main-content {
+	border: solid .1px #eaeaea;
+	margin-top: 50px;	
+    color: #b3a79f;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 650px;
+	height: 600px;
+	margin-left: 175px;
+	background-color: #ffffff;
+	line-height: 260%;
+}
+
+.social-media {
+	border: solid .1px #eaeaea;
+	margin-top: 50px;
+	background-color: #ffffff;
+	width: 270px;
+	height: 200px;
+	margin-right: 250px;
+	float: right;
+}
+
+.social-media-icon {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+
+
+}
+
+#SOF-icon {
+	height: 54px;
+	width: 54px;
+	padding-bottom: 2px
+
+}
+
+
+.abt-me-img {
+	float:left;
+	margin-top: 30px;
+}
+
+.main-conetnt-text{
+	
+
+
+	
+	
 
 
 

@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta charset="utf-8">
-</head>
-
-<body>
-
-  <ul class="sidebar">
-    <li><a href="index.html">About</a></li>
-    <li><a href="portfolio.html">Portfolio</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-
-
-<div class="h1">
- <h1>Valyn Hall</h1>
-</div>
-    <br><br> 
-  
-  <h2>Contact</h2>
-
-<form>
-  First name:<br>
-  <input type="text" name="firstname">
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname">
-  <br><br>
-  Message
-  <textarea 
-    rows="4" cols="50" name="comment" form="usrform">
-  </textarea>
-  <br><br><br>
-
-  <input type="submit" value="Submit">
-  
-</form>
-
-</body>
-
-</html> 	
+   <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <header id="head" class="head-container">
+         <div id="name" class="portfolio_name">
+            <span id="name-text">Valyn Hall</span>
+         </div>
+         <nav id="side-menu" class="menu">
+            <ul>
+               <li class="menu-items"><a href="index.html">About</a></li>
+               <li class="menu-items"><a href="portfolio.html">Portfolio</a></li>
+               <li class="menu-items"><a href="contact.html">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div class="social-media">
+         <img class="social-media-icon" src="assets/images/ghub.png">
+         <img class="social-media-icon" src="assets/images/in.png">
+         <img id="SOF-icon" class="social-media-icon" src="assets/images/SOF.png">     
+      </div>
+      <div id="content-box" class="main-content">
+         <span class="page-title">Contact</span>
+         <form>
+            First name:<br>
+            <input class="content-box-text" rows="20" type="text" name="firstname">
+            <br>
+            Last name:<br>
+            <input class="content-box-text" type="text" name="lastname">
+            <br>
+            Message
+            <br>
+            <textarea class="content-box-text"
+               rows="20" cols="100" name="comment" form="usrform">
+            </textarea>
+            <input type="submit" value="Submit">
+         </form>
+      </div>
+   </body>
+</html>
