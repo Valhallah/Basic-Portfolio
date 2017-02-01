@@ -78,6 +78,7 @@ a {
 	margin-left: 170px;
 	background-color: #ffffff;
 	line-height: 280%;
+	padding: 40px;
 }
 
 .social-media {
@@ -86,7 +87,7 @@ a {
 	background-color: #ffffff;
 	width: 270px;
 	height: 200px;
-	margin-right: 250px;
+	margin-right: 160px;
 	float: right;
 }
 
@@ -123,13 +124,11 @@ a {
 }
 
 .portfolio-img {
-	position: relative;
 	height: 200px;
 	width: 265px;
 	display: block;
 	flex-wrap: wrap;
 	border: solid 30px #ffffff;
-
 }
 
 .submit-button {
@@ -158,10 +157,80 @@ a {
 	
 }
 
-#content-box {
-	height: 800px;
+.portfolio-img1 {
+	background-image: url(http://lorempixel.com/125/125/technics/1/cc);
+	height: 210px;
+	width: 265px;
+	border: solid 30px #ffffff;
+	background-size: 265px 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #ffffff;
+
+
+}
+
+.portfolio-img2 {
+	background-image: url(http://lorempixel.com/125/125/technics/2/cc);
+	height: 200px;
+	width: 265px;
+	border: solid 30px #ffffff;
+	background-size: 265px 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #ffffff;
+}
+
+.portfolio-img3 {
+	background-image: url(http://lorempixel.com/125/125/technics/3/cc);
+	height: 200px;
+	width: 265px;
+	border: solid 30px #ffffff;
+	background-size: 265px 200px;
+	background-repeat: no-repeat;
+	background-position: center;
 	
 }
+
+.portfolio-img4 {
+	background-image: url(http://lorempixel.com/125/125/technics/5/cc);
+	background-size: 265px 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
+	width: 265px;
+	border: solid 30px #ffffff;
+	
+	
+}
+
+.portfolio-img5 {
+	background-image: url(http://lorempixel.com/125/125/technics/6/cc);
+	background-size: 265px 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
+	width: 265px;
+	border: solid 30px #ffffff;
+	
+}
+#content-box {
+	height: 850px;
+	
+}
+
+.portfolio-img-text { 
+	background-color: #00afa8;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 265px;
+	height: 55px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 135px;
+	color: #f6fefe;
+}
+
+
 
 	
 	
